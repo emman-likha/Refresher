@@ -2,9 +2,17 @@
 
 function Header(){
     return(
-        <>
-        <h1>Sana talaga ma hire hehe</h1>
-        </>
-    )
+        <header>
+            <h1>My Website</h1>
+            <nav>
+                <ul className="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+    );
 }
 export default Header
